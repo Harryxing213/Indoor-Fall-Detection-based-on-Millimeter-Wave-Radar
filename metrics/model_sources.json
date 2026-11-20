@@ -1,0 +1,35 @@
+[
+  {
+    "source": "PointNet/log/classification/report_small_pipeline/checkpoints/latest.pth",
+    "destination": "weights/fall_ssg_reference.pth",
+    "source_sha256": "5bf0bd42c555767c1092fb0b809f40f9800575f80dcbf1cbd6f57912bb494f51",
+    "sha256": "b13dfc6c53ebdeac252b54570134871c2877082cbb0ecaae60512a50221b5621",
+    "epoch": 3,
+    "preprocessing": {
+      "num_point": 192,
+      "window_size": 15,
+      "stride": 5,
+      "single_only": true,
+      "test_ratio": 0.2,
+      "legacy_name_filter": true,
+      "training_scope": "historical single-name filter; includes two multi-person recordings"
+    },
+    "export_note": "State tensors preserved; optimizer state and machine-specific arguments removed."
+  },
+  {
+    "source": "PointNet/log/multi_person_classification/best_soft_sampler_e6/checkpoints/best.pth",
+    "destination": "weights/multi_person_ssg_smoke.pth",
+    "source_sha256": "50d4bc0bc0985531698c562ce1adaf3f5a7def55eca8ff0474e3a4b9fbb58c62",
+    "sha256": "8bc392d03676493b70cfcb1c09476657404737e7013ab11630b17e43aa9620d3",
+    "epoch": 2,
+    "preprocessing": {
+      "num_point": 192,
+      "window_size": 15,
+      "stride": 5,
+      "test_ratio": 0.25,
+      "weak_scene_labels": true,
+      "experimental_smoke_run": true
+    },
+    "export_note": "State tensors preserved; optimizer state and machine-specific arguments removed."
+  }
+]

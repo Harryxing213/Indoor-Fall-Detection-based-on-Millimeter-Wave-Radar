@@ -1,0 +1,36 @@
+{
+  "checkpoint": "fall_ssg_reference.pth",
+  "checkpoint_epoch": 3,
+  "seed": 42,
+  "num_windows": 328,
+  "preprocessing": {
+    "num_point": 192,
+    "window_size": 15,
+    "stride": 5,
+    "single_only": true,
+    "test_ratio": 0.2,
+    "legacy_name_filter": true,
+    "training_scope": "historical single-name filter; includes two multi-person recordings"
+  },
+  "metrics": {
+    "accuracy": 0.725609756097561,
+    "precision": 0.4206896551724138,
+    "recall": 0.9104477611940298,
+    "f1": 0.5754716981132076,
+    "tp": 61,
+    "tn": 177,
+    "fp": 84,
+    "fn": 6
+  },
+  "confusion": [
+    [
+      177,
+      84
+    ],
+    [
+      6,
+      61
+    ]
+  ],
+  "split": "sorted files, held-out tail; not a subject-independent evaluation"
+}
