@@ -1,0 +1,306 @@
+[
+  {
+    "source": "PointNet/train_classification.py",
+    "destination": "train_classification.py",
+    "source_sha256": "06892d6b375a623b43686839cf2e1cf6805f853686949cac3fdea00f4e8a3522",
+    "packaged_sha256": "044fcda73ff855ee940f7a8107fccd88d0330a1679601b98b53ade0fbf181499",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/provider.py",
+    "destination": "provider.py",
+    "source_sha256": "744b34d3b98abe3ad1e39ea89d43a56f4d8e9f72d9186afc9957d1f5955b1cc6",
+    "packaged_sha256": "744b34d3b98abe3ad1e39ea89d43a56f4d8e9f72d9186afc9957d1f5955b1cc6",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/data_utils/RadarFallDataLoader.py",
+    "destination": "data_utils/RadarFallDataLoader.py",
+    "source_sha256": "4f22ab92bad361695453b95f118984785741f42a2a3b7cc0cd67ffca3576b0b7",
+    "packaged_sha256": "d2701a65eb108f23140799b04d07a8e56570e81887211423a5636516d072546e",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/models/pointnet_cls.py",
+    "destination": "models/pointnet_cls.py",
+    "source_sha256": "42957913224733769b302760cdca0156aea3fbca6dad0e35fd76f9a15172612c",
+    "packaged_sha256": "42957913224733769b302760cdca0156aea3fbca6dad0e35fd76f9a15172612c",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/models/pointnet2_cls_ssg.py",
+    "destination": "models/pointnet2_cls_ssg.py",
+    "source_sha256": "8910830c50d850fb1cdbc6b6c9f14d26a44c87fc4d71b056bc52b1436518a4b4",
+    "packaged_sha256": "8910830c50d850fb1cdbc6b6c9f14d26a44c87fc4d71b056bc52b1436518a4b4",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/models/pointnet2_cls_msg.py",
+    "destination": "models/pointnet2_cls_msg.py",
+    "source_sha256": "113a9e35278022a5868e327d794f689e0338a064ea004adb1a59cb5c26beb6a1",
+    "packaged_sha256": "113a9e35278022a5868e327d794f689e0338a064ea004adb1a59cb5c26beb6a1",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/models/pointnet_utils.py",
+    "destination": "models/pointnet_utils.py",
+    "source_sha256": "ca308e7f3b51cd71ddcb4c611aea1a0a566c3f536694b5ecfe142e24aff959d1",
+    "packaged_sha256": "ca308e7f3b51cd71ddcb4c611aea1a0a566c3f536694b5ecfe142e24aff959d1",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/models/pointnet2_utils.py",
+    "destination": "models/pointnet2_utils.py",
+    "source_sha256": "640891adff1c045bed111a4d461ce23b9ec815067cef447a9d04b3e64239f0dd",
+    "packaged_sha256": "640891adff1c045bed111a4d461ce23b9ec815067cef447a9d04b3e64239f0dd",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/debug_tools/track_debugger.py",
+    "destination": "debug_tools/track_debugger.py",
+    "source_sha256": "b2c206c052eb8856e8252b9b11d40c44fee5ad7eef8ea679dbc1b403dcaa696f",
+    "packaged_sha256": "32e0096547a02c57fa7043480a1090ac3f03aa036c4c63c0af73e7349940b603",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/debug_tools/rebuild_all_tracks.py",
+    "destination": "debug_tools/rebuild_all_tracks.py",
+    "source_sha256": "297ce3aa2907827996fe8eb1682d9d6544a439eec3f486bd39fcc70c934bf234",
+    "packaged_sha256": "297ce3aa2907827996fe8eb1682d9d6544a439eec3f486bd39fcc70c934bf234",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/debug_tools/track_window_dataset.py",
+    "destination": "debug_tools/track_window_dataset.py",
+    "source_sha256": "de8605035202300ec7e0f3a29cc3bf940e0afea8daa21fae1f46ef820918bfb2",
+    "packaged_sha256": "bf4f4caf53bd25d3d80ac27bab52a965b2ae270ac2919f59d37a7a172b36a17d",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/debug_tools/train_multiperson_classification.py",
+    "destination": "debug_tools/train_multiperson_classification.py",
+    "source_sha256": "720c70174a0f5ecfa6d83d92a6d161b8473962c9e4f8f1501b7d8d5d30f14fb7",
+    "packaged_sha256": "4a2d37fdd48798b76c11a2e16603d704ddd05289c72982edb6985f6ff3c5fb7c",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/scene_level_tools/scene_window_dataset.py",
+    "destination": "scene_level_tools/scene_window_dataset.py",
+    "source_sha256": "c88cf4e1886ca855c5ed0f5e104e2516314c23ef647753ec86f2ed8f24e57e25",
+    "packaged_sha256": "5f0d7d6599044534ecba3167484f68b24f747cc009777d7438d4faa9d0ca745f",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/scene_level_tools/train_scene_classification.py",
+    "destination": "scene_level_tools/train_scene_classification.py",
+    "source_sha256": "2ece91b611b2e029a1ae2a165d59638ea9a714dd3eca24bc4c030f8487681025",
+    "packaged_sha256": "73957484b69999c9f37c703e76c94f1c2e5d8f00879fbfacf853a9f69dce8fa4",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/target_inference_tools/run_single_model_on_multiperson.py",
+    "destination": "target_inference_tools/run_single_model_on_multiperson.py",
+    "source_sha256": "42e84bf7f0c9aff70181b4f0dd0937e5b62fef1d5d5e6ea235d2c099b5bd5a58",
+    "packaged_sha256": "8d98c1bf280aefa675de54d253545b8ecdb5607478a08e350357bd2b9d5d2a6e",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/model_comparison_tools/run_small_model_comparison.py",
+    "destination": "model_comparison_tools/run_small_model_comparison.py",
+    "source_sha256": "bc217ce6ac79b342946639193d8eb7fd4b62cc92e1902b551c5de7aaa3a20fa2",
+    "packaged_sha256": "73f88d4e876a0d91b4fccb873cb6667911924fd5da66968398279ea0ee012348",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/LICENSE",
+    "destination": "LICENSE",
+    "source_sha256": "e87db35978e80247634bddd15029c7b69ec0ac9f492a6954133dbe08c71e1372",
+    "packaged_sha256": "e87db35978e80247634bddd15029c7b69ec0ac9f492a6954133dbe08c71e1372",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "解析程序/F_CoordinateConversion.m",
+    "destination": "matlab/F_CoordinateConversion.m",
+    "source_sha256": "9e5d6ca5fd84ac845f7c91cda129e1d90cba7546716d66b320cc0755a885d553",
+    "packaged_sha256": "9e5d6ca5fd84ac845f7c91cda129e1d90cba7546716d66b320cc0755a885d553",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "解析程序/ParameterInit.m",
+    "destination": "matlab/ParameterInit.m",
+    "source_sha256": "fb0eeca6ab80c2f186064f7433118f321f3082f0202192973c6ffee16da1698f",
+    "packaged_sha256": "fb0eeca6ab80c2f186064f7433118f321f3082f0202192973c6ffee16da1698f",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "解析程序/F_BoxSet.m",
+    "destination": "matlab/F_BoxSet.m",
+    "source_sha256": "cb2ddc37fd75c4abe20f61fd026b135d385dcc05d350ffcfa30092aa11b3cb54",
+    "packaged_sha256": "cb2ddc37fd75c4abe20f61fd026b135d385dcc05d350ffcfa30092aa11b3cb54",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "解析程序/F_Local_Flag_to_String.m",
+    "destination": "matlab/F_Local_Flag_to_String.m",
+    "source_sha256": "3a0be94c5ca0ed1b6724ae43f57bfaa228f1d67f36e92a8446aeb19b060f1b11",
+    "packaged_sha256": "3a0be94c5ca0ed1b6724ae43f57bfaa228f1d67f36e92a8446aeb19b060f1b11",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/lifestyle_demo_tools/generate_lifestyle_demo.py",
+    "destination": "examples/lifestyle_demo.py",
+    "source_sha256": "f576f2d151e3d2a75e4ff92c275b3bce80aeb1018dca66ce1c799a53b0a062e8",
+    "packaged_sha256": "d8de305fbdfaafd6d0e053782934b9f53cf565fc862d5e48f77d42376c64aa7a",
+    "modified_during_packaging": true
+  },
+  {
+    "source": "PointNet/model_comparison_tools/outputs/small_model_comparison_results.json",
+    "destination": "metrics/small_model_comparison_results.json",
+    "source_sha256": "4269d54dc692f17b58a748656b1ad37fbc5d0bfcc812584cdb59dfb129a71cc9",
+    "packaged_sha256": "4269d54dc692f17b58a748656b1ad37fbc5d0bfcc812584cdb59dfb129a71cc9",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/log/classification/report_small_pipeline/figures/metrics_history.csv",
+    "destination": "metrics/single_person_ssg_history.csv",
+    "source_sha256": "9384ac839b04569e65210ef68ed7384dec03848ca98c07afee3b68c91fb44897",
+    "packaged_sha256": "9384ac839b04569e65210ef68ed7384dec03848ca98c07afee3b68c91fb44897",
+    "modified_during_packaging": false
+  },
+  {
+    "source": "PointNet/log/classification/report_small_pipeline/checkpoints/latest.pth",
+    "destination": "weights/fall_ssg_reference.pth",
+    "source_sha256": "5bf0bd42c555767c1092fb0b809f40f9800575f80dcbf1cbd6f57912bb494f51",
+    "packaged_sha256": "b13dfc6c53ebdeac252b54570134871c2877082cbb0ecaae60512a50221b5621",
+    "modified_during_packaging": true,
+    "note": "Model state tensors unchanged; exported metadata added and optimizer removed."
+  },
+  {
+    "source": "PointNet/log/multi_person_classification/best_soft_sampler_e6/checkpoints/best.pth",
+    "destination": "weights/multi_person_ssg_smoke.pth",
+    "source_sha256": "50d4bc0bc0985531698c562ce1adaf3f5a7def55eca8ff0474e3a4b9fbb58c62",
+    "packaged_sha256": "8bc392d03676493b70cfcb1c09476657404737e7013ab11630b17e43aa9620d3",
+    "modified_during_packaging": true,
+    "note": "Model state tensors unchanged; exported metadata added and optimizer removed."
+  },
+  {
+    "source": null,
+    "destination": ".gitignore",
+    "packaged_sha256": "6dd7c95859f0c6598ffb46d9d2902df8f32a6b1988807b5bd991582025602524",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "README.md",
+    "packaged_sha256": "b0fb770cc7d451792a47361bd2298497fde8d8034bb2ec1b1f2b40f114bbf57a",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "THIRD_PARTY_NOTICES.md",
+    "packaged_sha256": "1cd5c742d09a558de24d6f68b3dbe3f5bdca7a2f264cedbf9bdd7c79a494f910",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "assets/model_comparison.png",
+    "packaged_sha256": "7833d66d139d156162c6114f219ac099dbbe41e46359a2fe86eaab066b1fef2f",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "data_utils/file_filters.py",
+    "packaged_sha256": "1fc62f7dee01a364611691848f6d41cf8c0f09b14fee0887aaaedeabe431b071",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "docs/data_notes.md",
+    "packaged_sha256": "6f5b9da1fe16f3d16488bd3642ec0b790817ce70a6ae199c1f8476a06a64478a",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "docs/file_map.md",
+    "packaged_sha256": "03546cab83b5b618d42e3282a8a6cf3833eef09b979199edc41ae56ffd80d44e",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "docs/results_provenance.md",
+    "packaged_sha256": "fab77fb3164588ef324edd68c54d60d59e9eed35475a8c514333a9240ad310ad",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "docs/verification.md",
+    "packaged_sha256": "13283c2f1fc79534f803c1c864e1666fc330bc438a222b1d5fdb3b78cd3729ba",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "evaluate.py",
+    "packaged_sha256": "d0caac349f36fd2bab8e95ead69bc36a37434b2cdcc0251e34bad1dd0bf42cd8",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "matlab/prepare_frames.m",
+    "packaged_sha256": "7cd06c06d4d08b5c093e079e6de59fd03789ab9603639eb0f3236be8c742d1d8",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "metrics/model_sources.json",
+    "packaged_sha256": "2d0432af8509b5570493a889f1ae5dc4a9393f2b9c2b1ef0a10d22eebd643e40",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "metrics/models.sha256",
+    "packaged_sha256": "afb0ac2141b66e06540baafb6d3560742b5ba081c01939330c3fecf90a79e27b",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "metrics/reference_evaluation.json",
+    "packaged_sha256": "90c2f5928d4db47b57804cf304d1e63462fff1ca3bb806d42d059ef5968325ee",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "model_comparison_tools/plot_recorded_results.py",
+    "packaged_sha256": "28fa50005b5ea4a68634207bfe51d25dcfa72b2eaeaf43f3235a41db21df7a9b",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "predict.py",
+    "packaged_sha256": "918ab6251423e1f0721c6e68684cf101f771d9ee7111b558b4659bbe8c931a64",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "requirements-plots.txt",
+    "packaged_sha256": "4cb0b0f9d613ccbe033eac4bbd8d4e004e2f73834155b307b11333607003237b",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "requirements.txt",
+    "packaged_sha256": "3b778a2305f8be3f07ba0221ae83d2cf2b2d3af9dac1315b0a6bbdf7a91f5b67",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "tests/test_pipeline.py",
+    "packaged_sha256": "dd6b3a669a47e6e0e44e68f19dfc86429100af3f2772ff2a41490cf3b9cf5a20",
+    "note": "Added during project curation."
+  },
+  {
+    "source": null,
+    "destination": "training_utils.py",
+    "packaged_sha256": "b104b66196fc577a95cf3ee2549c9dc7794b64f2fedf87f263aef34a9d3ba951",
+    "note": "Added during project curation."
+  }
+]
